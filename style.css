@@ -85,14 +85,6 @@ form {
     padding: 15px 0 15px 0;
 }
 
-.country-forms {
-    display: none;
-}
-
-.drink-submit {
-    display: none;
-}
-
 /* ID selectors */
 
 #wrapper {
@@ -111,31 +103,6 @@ form {
 
 #main-image {
     position: relative;
-}
-
-#drink-submit-mexico,
-#drink-submit-norway,
-#drink-submit-china,
-#drink-submit-germany,
-#drink-submit-italy,
-#drink-submit-america,
-#drink-submit-japan,
-#drink-submit-morocco,
-#drink-submit-france,
-#drink-submit-uk,
-#drink-submit-canada,
-#after-submit,
-#after-submit2,
-#after-submit3,
-#after-submit4,
-#after-submit5,
-#after-submit6,
-#after-submit7,
-#after-submit8,
-#after-submit9,
-#after-submit10,
-#after-submit11 {
-    display: none;
 }
 
 /* animate the drink image */

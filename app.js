@@ -1,159 +1,185 @@
-$('#start-button').on('click', function() {
-        $('#mexico-form').show();
-        $('#drink-submit-mexico').show();
-        $('#main-form').hide();
+$('.country-forms').hide();
+$('.drink-submit').hide();
+$('.after-submit').hide();
+
+// Show Mexico form and Mexico drink submit on "Let's Go!" button click
+$('#start-button').click(function() {
+    $('#main-form').hide();
+    $('#mexico-form').fadeIn(1500);
+    $('#drink-submit-mexico').fadeIn(1500);
 });
 
-$('#drink-submit-btn').on('click', function(event) {
+// Hide Mexico forms on "Submit" button click and show after submit page
+$('.mexico').click(function(event) {
     event.preventDefault();
-
-    $('#after-submit').show();
-    $('#drink-submit-mexico').hide();
+    
     $('#mexico-form').hide();
+    $('#drink-submit-mexico').hide();
+    $('.norway').fadeIn(1500);
 });
 
-$('#move-on').on('click', function() {
-    $('#after-submit').hide();
-    $('#norway-form').show();
-    $('#drink-submit-norway').show();
+// Show Norway form and Norway drink submit on button click
+$('.move-on-norway').click(function() {
+    $('.norway').hide();
+    $('#norway-form').fadeIn(1500);
+    $('#drink-submit-norway').fadeIn(1500);
 });
 
-$('#drink-submit-btn2').on('click', function(event) {
+// Hide Norway forms on "Submit" button click and show after submit page
+$('.drink-submit-btn-norway').click(function(event) {
     event.preventDefault();
-
-    $('#after-submit2').show();
-    $('#drink-submit-norway').hide();
+    
     $('#norway-form').hide();
+    $('#drink-submit-norway').hide();
+    $('.china').fadeIn(1500);
 });
 
-$('#move-on2').on('click', function() {
-    $('#after-submit2').hide();
-    $('#china-form').show();
-    $('#drink-submit-china').show();
+// Show China form and China drink submit on button click
+$('#move-on-china').click(function() {
+    $('.china').hide();
+    $('#china-form').fadeIn(1500);
+    $('#drink-submit-china').fadeIn(1500);
 });
 
-$('#drink-submit-btn3').on('click', function(event) {
+// Hide China forms on "Submit" button click and show after submit page
+$('#drink-submit-btn-china').click(function(event) {
     event.preventDefault();
-
-    $('#after-submit3').show();
-    $('#drink-submit-china').hide();
+    
     $('#china-form').hide();
+    $('#drink-submit-china').hide();
+    $('.germany').fadeIn(1500);
 });
 
-$('#move-on3').on('click', function() {
-    $('#after-submit3').hide();
-    $('#germany-form').show();
-    $('#drink-submit-germany').show();
+// Show Germany form and Germany drink submit on button click
+$('#move-on-germany').click(function() {
+    $('.germany').hide();
+    $('#germany-form').fadeIn(1500);
+    $('#drink-submit-germany').fadeIn(1500);
 });
 
-$('#drink-submit-btn4').on('click', function(event) {
+// Hide Germany forms on "Submit" button click and show after submit page
+$('#drink-submit-btn-germany').click(function(event) {
     event.preventDefault();
-
-    $('#after-submit4').show();
-    $('#drink-submit-germany').hide();
+    
     $('#germany-form').hide();
+    $('#drink-submit-germany').hide();
+    $('.italy').fadeIn(1500);
 });
 
-$('#move-on4').on('click', function() {
-    $('#after-submit4').hide();
-    $('#italy-form').show();
-    $('#drink-submit-italy').show();
+// Show Italy form and Italy drink submit on button click
+$('#move-on-italy').click(function() {
+    $('.italy').hide();
+    $('#italy-form').fadeIn(1500);
+    $('#drink-submit-italy').fadeIn(1500);
 });
 
-$('#drink-submit-btn5').on('click', function(event) {
+// Hide Italy forms on "Submit" button click and show after submit page
+$('#drink-submit-btn-italy').click(function(event) {
     event.preventDefault();
-
-    $('#after-submit5').show();
-    $('#drink-submit-italy').hide();
+    
     $('#italy-form').hide();
+    $('#drink-submit-italy').hide();
+    $('.america').fadeIn(1500);
 });
 
-$('#move-on5').on('click', function() {
-    $('#after-submit5').hide();
-    $('#america-form').show();
-    $('#drink-submit-america').show();
+// Show America form and America drink submit on button click
+$('#move-on-america').click(function() {
+    $('.america').hide();
+    $('#america-form').fadeIn(1500);
+    $('#drink-submit-america').fadeIn(1500);
 });
 
-$('#drink-submit-btn6').on('click', function(event) {
+// Hide America forms on "Submit" button click and show after submit page
+$('#drink-submit-btn-america').click(function(event) {
     event.preventDefault();
-
-    $('#after-submit6').show();
-    $('#drink-submit-america').hide();
+    
     $('#america-form').hide();
+    $('#drink-submit-america').hide();
+    $('.japan').fadeIn(1500);
 });
 
-$('#move-on6').on('click', function() {
-    $('#after-submit6').hide();
-    $('#japan-form').show();
-    $('#drink-submit-japan').show();
+// Show Japan form and Japan drink submit on button click
+$('#move-on-japan').click(function() {
+    $('.japan').hide();
+    $('#japan-form').fadeIn(1500);
+    $('#drink-submit-japan').fadeIn(1500);
 });
 
-$('#drink-submit-btn7').on('click', function(event) {
+// Hide Japan forms on "Submit" button click and show after submit page
+$('#drink-submit-btn-japan').click(function(event) {
     event.preventDefault();
-
-    $('#after-submit7').show();
-    $('#drink-submit-japan').hide();
+    
     $('#japan-form').hide();
+    $('#drink-submit-japan').hide();
+    $('.morocco').fadeIn(1500);
 });
 
-$('#move-on7').on('click', function() {
-    $('#after-submit7').hide();
-    $('#morocco-form').show();
-    $('#drink-submit-morocco').show();
+// Show Morocco form and Morocco drink submit on button click
+$('#move-on-morocco').click(function() {
+    $('.morocco').hide();
+    $('#morocco-form').fadeIn(1500);
+    $('#drink-submit-morocco').fadeIn(1500);
 });
 
-$('#drink-submit-btn8').on('click', function(event) {
+// Hide Japan forms on "Submit" button click and show after submit page
+$('#drink-submit-btn-morocco').click(function(event) {
     event.preventDefault();
-
-    $('#after-submit8').show();
-    $('#drink-submit-morocco').hide();
+    
     $('#morocco-form').hide();
+    $('#drink-submit-morocco').hide();
+    $('.france').fadeIn(1500);
 });
 
-$('#move-on8').on('click', function() {
-    $('#after-submit8').hide();
-    $('#france-form').show();
-    $('#drink-submit-france').show();
+// Show France form and France drink submit on button click
+$('#move-on-france').click(function() {
+    $('.france').hide();
+    $('#france-form').fadeIn(1500);
+    $('#drink-submit-france').fadeIn(1500);
 });
 
-$('#drink-submit-btn9').on('click', function(event) {
+// Hide France forms on "Submit" button click and show after submit page
+$('#drink-submit-btn-france').click(function(event) {
     event.preventDefault();
-
-    $('#after-submit9').show();
-    $('#drink-submit-france').hide();
+    
     $('#france-form').hide();
+    $('#drink-submit-france').hide();
+    $('.uk').fadeIn(1500);
 });
 
-$('#move-on9').on('click', function() {
-    $('#after-submit9').hide();
-    $('#uk-form').show();
-    $('#drink-submit-uk').show();
+// Show UK form and UK drink submit on button click
+$('#move-on-uk').click(function() {
+    $('.uk').hide();
+    $('#uk-form').fadeIn(1500);
+    $('#drink-submit-uk').fadeIn(1500);
 });
 
-$('#drink-submit-btn10').on('click', function(event) {
+// Hide UK forms on "Submit" button click and show after submit page
+$('#drink-submit-btn-uk').click(function(event) {
     event.preventDefault();
-
-    $('#after-submit10').show();
-    $('#drink-submit-uk').hide();
+    
     $('#uk-form').hide();
+    $('#drink-submit-uk').hide();
+    $('.canada').fadeIn(1500);
 });
 
-$('#move-on10').on('click', function() {
-    $('#after-submit10').hide();
-    $('#canada-form').show();
-    $('#drink-submit-canada').show();
+// Show Canada form and Canada drink submit on button click
+$('#move-on-canada').click(function() {
+    $('.canada').hide();
+    $('#canada-form').fadeIn(1500);
+    $('#drink-submit-canada').fadeIn(1500);
 });
 
-$('#drink-submit-btn11').on('click', function(event) {
+// Hide UK forms on "Submit" button click and show after submit page
+$('#drink-submit-btn-canada').click(function(event) {
     event.preventDefault();
-
-    $('#after-submit11').show();
-    $('#drink-submit-canada').hide();
+    
     $('#canada-form').hide();
+    $('#drink-submit-canada').hide();
+    $('.complete').fadeIn(1500);
 });
 
-$('#move-on11').on('click', function() {
-    $('#after-submit11').hide();
-    $('#complete').show();
+// Show challenge complete
+$('#move-on-complete').click(function() {
+    $('.complete').hide();
+    $('#complete').fadeIn(1500);
 });
-

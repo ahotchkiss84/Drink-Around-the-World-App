@@ -1,0 +1,161 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    color: #333;
+    background: #f7fff6;
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-top: 15px;
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.3rem;
+    border: 1px solid #333;
+    padding: 5px 0;
+    margin-top: 10px;
+    width: 100%;
+}
+
+form {
+    margin-top: 15px;
+}
+
+/* Class selectors */
+
+.btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #333;
+    background: #78cdd0;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80%;
+    font-family: inherit;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.btn-sm {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #333;
+    background: #78cdd0;
+    border-radius: 5px;
+    padding: 5px;
+    width: 30%;
+    font-family: inherit;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #5ba8a8;
+    cursor: pointer;
+}
+
+.content {
+    margin: auto;
+    width: 90%;
+    padding: 15px 0 15px 0;
+}
+
+.country-forms {
+    display: none;
+}
+
+.drink-submit {
+    display: none;
+}
+
+/* ID selectors */
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#drink-image {
+    -webkit-animation: rotation 4s infinite linear;
+    animation: rotation 4s infinite linear;
+    position: absolute;
+    top: 10px;
+    left: -8px
+}
+
+#main-image {
+    position: relative;
+}
+
+#drink-submit-mexico,
+#drink-submit-norway,
+#drink-submit-china,
+#drink-submit-germany,
+#drink-submit-italy,
+#drink-submit-america,
+#drink-submit-japan,
+#drink-submit-morocco,
+#drink-submit-france,
+#drink-submit-uk,
+#drink-submit-canada,
+#after-submit,
+#after-submit2,
+#after-submit3,
+#after-submit4,
+#after-submit5,
+#after-submit6,
+#after-submit7,
+#after-submit8,
+#after-submit9,
+#after-submit10,
+#after-submit11 {
+    display: none;
+}
+
+/* animate the drink image */
+
+@keyframes rotation {
+    from {
+        transform: rotate(deg);
+        transform-origin: 55% 55%;
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+            transform-origin: 55% 55%;
+    }
+    to {
+            -webkit-transform: rotate(360deg);
+    }
+}
